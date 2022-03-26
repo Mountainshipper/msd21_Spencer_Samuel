@@ -31,8 +31,11 @@ Example_street 23, 8062 Fairyland.
 Email: Example@gmail.com.
 
 [exercise1.md](exercise1.md)
+[exercise2.md](exercise2.md)
+
+Personal Profile [click](https://github.com/Mountainshipper) here!
 
 
-
+Fh Joanneum [click](https://www.fh-joanneum.at/) here!
 
 
