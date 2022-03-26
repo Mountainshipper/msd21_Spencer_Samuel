@@ -1,5 +1,7 @@
-
+# Description
 ---
+
+
 ## Git config
 Git config is a command that is used to set Git configuration values on a local or global project level.
 
@@ -8,7 +10,7 @@ Git config is a command that is used to set Git configuration values on a local 
 It can be used to download an existing repository via a remote repository from the server
 
 ---
-## Git commit
+## Git commit 
 After the use of git add, where all new files or changed files have been added to the statging area, can these changes be uploaded to the git repository via the staging area as new versions.
 
 ---
