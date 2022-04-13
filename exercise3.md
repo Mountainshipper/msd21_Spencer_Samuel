@@ -29,7 +29,7 @@ With the command:
 ```-cp . at.fhj.msd.Main```
 <br>
 The result of the calculations will be displayd:
-<img src="media/Console.PNG" alt="Screenshot">
+<img src="media/console.PNG" alt="Screenshot">
 
 
 <br><br><br><br>
