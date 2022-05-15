@@ -38,7 +38,12 @@ Fh Joanneum [click](https://www.fh-joanneum.at/) here!
 
 ### Exercises
 [exercise1.md](exercise1.md)
+<br>
 [exercise2.md](exercise2.md)
+<br>
+[exercise3.md](exercise3.md)
+<br>
+[exercise4.md](exercise4.md)
 
 
 
