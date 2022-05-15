@@ -9,8 +9,8 @@ The project is saved in the package "at.fhj.ms".
 After running the project the folder "target" was created.
 
 <br>
-<img src="media/picture1.PNG" alt="Screenshot" width = 150px>
-<img src="media/target.PNG" alt="Screenshot">
+<img src="resources/picture1.PNG" alt="Screenshot" width = 150px>
+<img src="resources/target.PNG" alt="Screenshot">
 <br><br>
 
 The following folder where inside.
