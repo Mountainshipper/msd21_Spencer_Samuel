@@ -3,7 +3,6 @@ package at.fhj.msd;
 public class Calculator {
 
 
-
     public double add(double number1, double number2) {
 
         double result = number1 + number2;
@@ -26,5 +25,10 @@ public class Calculator {
 
         double result = number1 / number2;
         return result;
+    }
+
+    public double faculty(double number1) {
+
+        return 0;
     }
 }

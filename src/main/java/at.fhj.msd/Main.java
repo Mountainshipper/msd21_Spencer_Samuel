@@ -8,5 +8,6 @@ public class Main {
         System.out.println(calculator.minus(10, 5));
         System.out.println(calculator.divide(10, 5));
         System.out.println(calculator.multiply(10, 5));
+
     }
 }

@@ -56,7 +56,18 @@ public class JUnitTests {
         Assertions.assertEquals(6/2, calc.divide(6, 2));
     }
 
-
+    @Test
+    public void calcTestfaculty(){
+        Assertions.assertEquals(120, calc.faculty( 5));
+    }
+    @Test
+    public void calcTestfaculty1(){
+        Assertions.assertEquals(720, calc.faculty( 6));
+    }
+    @Test
+    public void calcTestfaculty2(){
+        Assertions.assertEquals(0, calc.faculty( -2));
+    }
     }
 
 
