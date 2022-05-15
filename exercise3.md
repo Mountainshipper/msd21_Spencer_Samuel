@@ -9,8 +9,8 @@ The project is saved in the package "at.fhj.ms".
 After running the project the folder "target" was created.
 
 <br>
-<img src="resources/picture1.PNG" alt="Screenshot" width = 150px>
-<img src="resources/target.PNG" alt="Screenshot">
+<img src="ressources/images/picture1.PNG" alt="Screenshot" width = 150px>
+<img src="ressources/images/target.PNG" alt="Screenshot">
 <br><br>
 
 The following folder where inside.
@@ -29,7 +29,7 @@ With the command:
 ```-cp . at.fhj.msd.Main```
 <br>
 The result of the calculations will be displayd:
-<img src="media/console.PNG" alt="Screenshot">
+<img src="ressources/images/console.PNG" alt="Screenshot">
 
 
 <br><br><br><br>
@@ -37,5 +37,5 @@ With the command:
 
 ```mvn compile```
 <br><br>
-<img src="media/mvn.PNG" alt="Screenshot">
+<img src="ressources/images/mvn.PNG" alt="Screenshot">
 
