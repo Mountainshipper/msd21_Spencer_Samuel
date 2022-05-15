@@ -28,7 +28,18 @@ public class Calculator {
     }
 
     public double faculty(double number1) {
+        double number = number1;
+        while (number1 > 1) {
+            number = number * (number1 - 1);
+            number1 = number1 - 1;
 
-        return 0;
+
+
+        }if (number <= 0){
+            return 0;
+        }else {
+            return number;
+        }
+        
     }
 }
