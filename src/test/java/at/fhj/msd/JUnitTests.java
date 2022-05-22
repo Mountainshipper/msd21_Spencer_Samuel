@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 
 public class JUnitTests {
 
@@ -54,6 +56,14 @@ public class JUnitTests {
     @Test
     public void calcTestDivide2(){
         Assertions.assertEquals(6/2, calc.divide(6, 2));
+    }
+
+    @Test
+    public void calcThrowsArithmeticException(){
+        assertThrows(ArithmeticException.class, () -> {
+            calc.divide(5, 0);
+        });
+
     }
 
     @Test
