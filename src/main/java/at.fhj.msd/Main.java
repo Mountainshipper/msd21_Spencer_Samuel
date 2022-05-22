@@ -1,7 +1,13 @@
 package at.fhj.msd;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 public class Main {
+    private static Logger logger = LogManager.getLogger();
     public static void main(String[] args) {
+
+        logger.debug("It is a debug logger.");
+        logger.info("Info Logger");
+        logger.error("Error Logger");
 
         Calculator calculator = new Calculator();
         System.out.println(calculator.add(10, 5));

@@ -1,7 +1,8 @@
 package at.fhj.msd;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 public class Calculator {
-
+    private static Logger logger = LogManager.getLogger();
 
     public double add(double number1, double number2) {
 
