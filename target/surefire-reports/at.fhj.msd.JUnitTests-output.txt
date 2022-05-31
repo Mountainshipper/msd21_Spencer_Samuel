@@ -1,1 +1,0 @@
-22:07:21.103 [main] ERROR at.fhj.msd.Calculator - Error Logger. Devision by 0
