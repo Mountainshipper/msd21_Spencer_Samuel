@@ -1,4 +1,15 @@
-Was ist notwendig um Maven Site Dokumentation zu generieren?
- Welche unterschiedlichen Aspekte, Konfigurationen, Informationen, usw.
-werden in site.xml bzw. pom.xml konfiguriert?
- Verlinken Sie Ihre neue Markdown Datei auch in Ihrer README.md.
+# Exercise 6
+## What is necessary to create a maven site documentation ?
+Terminal:
+mvn clean
+mvn test
+mvn site
+
+site.xml 
+
+
+
+
+
+2. ## Which aspects, configurations, informations, etc. are configured in site.xml or pom.xml
+Site XML: Navigation, as well as project name for website generation
