@@ -1,0 +1,140 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/austr/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar;C:/Users/austr/.m2/repository/org/apache/maven/plugins/maven-javadoc-plugin/3.4.0/maven-javadoc-plugin-3.4.0.jar;C:/Users/austr/.m2/repository/org/apache/maven/maven-core/3.2.5/maven-core-3.2.5.jar;C:/Users/austr/.m2/repository/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.jar;C:/Users/austr/.m2/repository/org/apache/maven/maven-model-builder/3.2.5/maven-model-builder-3.2.5.jar;C:/Users/austr/.m2/repository/org/apache/maven/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.jar;C:/Users/austr/.m2/repository/org/eclipse/aether/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.jar;C:/Users/austr/.m2/repository/org/eclipse/aether/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.jar;C:/Users/austr/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar;C:/Users/austr/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar;C:/Users/austr/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0.M1/org.eclipse.sisu.plexus-0.3.0.M1.jar;C:/Users/austr/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar;C:/Users/austr/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar;C:/Users/austr/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0.M1/org.eclipse.sisu.inject-0.3.0.M1.jar;C:/Users/austr/.m2/repository/org/sonatype/sisu/sisu-guice/3.2.3/sisu-guice-3.2.3-no_aop.jar;C:/Users/austr/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar;C:/Users/austr/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar;C:/Users/austr/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar;C:/Users/austr/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar;C:/Users/austr/.m2/repository/org/apache/maven/maven-model/3.2.5/maven-model-3.2.5.jar;C:/Users/austr/.m2/repository/org/apache/maven/maven-settings/3.2.5/maven-settings-3.2.5.jar;C:/Users/austr/.m2/repository/org/apache/maven/maven-plugin-api/3.2.5/maven-plugin-api-3.2.5.jar;C:/Users/austr/.m2/repository/org/apache/maven/maven-artifact/3.2.5/maven-artifact-3.2.5.jar;C:/Users/austr/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.1.0/maven-reporting-api-3.1.0.jar;C:/Users/austr/.m2/repository/org/apache/maven/maven-archiver/3.5.2/maven-archiver-3.5.2.jar;C:/Users/austr/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.3.3/maven-shared-utils-3.3.3.jar;C:/Users/austr/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar;C:/Users/austr/.m2/repository/org/apache/maven/shared/maven-invoker/3.1.0/maven-invoker-3.1.0.jar;C:/Users/austr/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar;C:/Users/austr/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar;C:/Users/austr/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar;C:/Users/austr/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar;C:/Users/austr/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar;C:/Users/austr/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.13.1/maven-artifact-transfer-0.13.1.jar;C:/Users/austr/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar;C:/Users/austr/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.11.1/doxia-sink-api-1.11.1.jar;C:/Users/austr/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.11.1/doxia-logging-api-1.11.1.jar;C:/Users/austr/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.11.1/doxia-site-renderer-1.11.1.jar;C:/Users/austr/.m2/repository/org/apache/maven/doxia/doxia-skin-model/1.11.1/doxia-skin-model-1.11.1.jar;C:/Users/austr/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.11.1/doxia-module-xhtml-1.11.1.jar;C:/Users/austr/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml5/1.11.1/doxia-module-xhtml5-1.11.1.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.jar;C:/Users/austr/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar;C:/Users/austr/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar;C:/Users/austr/.m2/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar;C:/Users/austr/.m2/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar;C:/Users/austr/.m2/repository/dom4j/dom4j/1.1/dom4j-1.1.jar;C:/Users/austr/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar;C:/Users/austr/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar;C:/Users/austr/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.4/wagon-provider-api-2.4.jar;C:/Users/austr/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar;C:/Users/austr/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar;C:/Users/austr/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar;C:/Users/austr/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;C:/Users/austr/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar;C:/Users/austr/.m2/repository/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar;C:/Users/austr/.m2/repository/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-java/1.1.0/plexus-java-1.1.0.jar;C:/Users/austr/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-archiver/4.2.7/plexus-archiver-4.2.7.jar;C:/Users/austr/.m2/repository/org/iq80/snappy/snappy/0.4/snappy-0.4.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar;C:/Users/austr/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.jar;C:/Users/austr/.m2/repository/org/apache/maven/plugins/maven-project-info-reports-plugin/3.0.0/maven-project-info-reports-plugin-3.0.0.jar;C:/Users/austr/.m2/repository/org/apache/maven/reporting/maven-reporting-impl/3.0.0/maven-reporting-impl-3.0.0.jar;C:/Users/austr/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar;C:/Users/austr/.m2/repository/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.jar;C:/Users/austr/.m2/repository/org/apache/maven/shared/maven-shared-jar/1.2/maven-shared-jar-1.2.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar;C:/Users/austr/.m2/repository/org/apache/bcel/bcel/6.2/bcel-6.2.jar;C:/Users/austr/.m2/repository/org/apache/maven/scm/maven-scm-api/1.10.0/maven-scm-api-1.10.0.jar;C:/Users/austr/.m2/repository/org/apache/maven/scm/maven-scm-provider-hg/1.10.0/maven-scm-provider-hg-1.10.0.jar;C:/Users/austr/.m2/repository/org/apache/maven/scm/maven-scm-provider-perforce/1.10.0/maven-scm-provider-perforce-1.10.0.jar;C:/Users/austr/.m2/repository/org/apache/maven/scm/maven-scm-provider-starteam/1.10.0/maven-scm-provider-starteam-1.10.0.jar;C:/Users/austr/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.10.0/maven-scm-provider-svn-commons-1.10.0.jar;C:/Users/austr/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar;C:/Users/austr/.m2/repository/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.10.0/maven-scm-provider-cvs-commons-1.10.0.jar;C:/Users/austr/.m2/repository/org/apache/maven/scm/maven-scm-provider-git-commons/1.10.0/maven-scm-provider-git-commons-1.10.0.jar;C:/Users/austr/.m2/repository/org/apache/maven/doxia/doxia-core/1.8/doxia-core-1.8.jar;C:/Users/austr/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.8.1/doxia-decoration-model-1.8.1.jar;C:/Users/austr/.m2/repository/org/apache/maven/doxia/doxia-integration-tools/1.8.1/doxia-integration-tools-1.8.1.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar;C:/Users/austr/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar;C:/Users/austr/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar;C:/Users/austr/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar;C:/Users/austr/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar;C:/Users/austr/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'18'
+-sourcepath
+'C:/Uni/Konfig Github/Zweites Beispiel/msd21_Spencer_Samuel/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Uni/Konfig Github/Zweites Beispiel/msd21_Spencer_Samuel/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'msd21_spencer_samuel 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'msd21_spencer_samuel 1.0-SNAPSHOT API'
+at.fhj.msd
+'C:/Uni/Konfig Github/Zweites Beispiel/msd21_Spencer_Samuel/src/main/java/at/fhj/msd/Calculator.java'
+'C:/Uni/Konfig Github/Zweites Beispiel/msd21_Spencer_Samuel/src/main/java/at/fhj/msd/Main.java'
+C:\Users\austr\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar = 1653237076732
+C:\Users\austr\.m2\repository\org\apache\maven\plugins\maven-javadoc-plugin\3.4.0\maven-javadoc-plugin-3.4.0.jar = 1654020196844
+C:\Users\austr\.m2\repository\org\apache\maven\maven-core\3.2.5\maven-core-3.2.5.jar = 1654020204466
+C:\Users\austr\.m2\repository\org\apache\maven\maven-settings-builder\3.2.5\maven-settings-builder-3.2.5.jar = 1654020203691
+C:\Users\austr\.m2\repository\org\apache\maven\maven-model-builder\3.2.5\maven-model-builder-3.2.5.jar = 1654020203778
+C:\Users\austr\.m2\repository\org\apache\maven\maven-aether-provider\3.2.5\maven-aether-provider-3.2.5.jar = 1654020203701
+C:\Users\austr\.m2\repository\org\eclipse\aether\aether-spi\1.0.0.v20140518\aether-spi-1.0.0.v20140518.jar = 1654020203701
+C:\Users\austr\.m2\repository\org\eclipse\aether\aether-impl\1.0.0.v20140518\aether-impl-1.0.0.v20140518.jar = 1654020204118
+C:\Users\austr\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar = 1653743626044
+C:\Users\austr\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar = 1654020203963
+C:\Users\austr\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.0.M1\org.eclipse.sisu.plexus-0.3.0.M1.jar = 1654020204027
+C:\Users\austr\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar = 1653743626210
+C:\Users\austr\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar = 1653743626211
+C:\Users\austr\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.0.M1\org.eclipse.sisu.inject-0.3.0.M1.jar = 1654020204160
+C:\Users\austr\.m2\repository\org\sonatype\sisu\sisu-guice\3.2.3\sisu-guice-3.2.3-no_aop.jar = 1654020204535
+C:\Users\austr\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar = 1653743626261
+C:\Users\austr\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar = 1654020207199
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.5.2\plexus-classworlds-2.5.2.jar = 1653740064295
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar = 1649799336344
+C:\Users\austr\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar = 1649799363053
+C:\Users\austr\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar = 1649799363070
+C:\Users\austr\.m2\repository\org\apache\maven\maven-model\3.2.5\maven-model-3.2.5.jar = 1654020204433
+C:\Users\austr\.m2\repository\org\apache\maven\maven-settings\3.2.5\maven-settings-3.2.5.jar = 1654020204549
+C:\Users\austr\.m2\repository\org\apache\maven\maven-plugin-api\3.2.5\maven-plugin-api-3.2.5.jar = 1654020204587
+C:\Users\austr\.m2\repository\org\apache\maven\maven-artifact\3.2.5\maven-artifact-3.2.5.jar = 1654020204641
+C:\Users\austr\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.1.0\maven-reporting-api-3.1.0.jar = 1653743625234
+C:\Users\austr\.m2\repository\org\apache\maven\maven-archiver\3.5.2\maven-archiver-3.5.2.jar = 1654020204675
+C:\Users\austr\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.3\maven-shared-utils-3.3.3.jar = 1653743626385
+C:\Users\austr\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar = 1654020206678
+C:\Users\austr\.m2\repository\org\apache\maven\shared\maven-invoker\3.1.0\maven-invoker-3.1.0.jar = 1654020204754
+C:\Users\austr\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar = 1653743626216
+C:\Users\austr\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar = 1654020204915
+C:\Users\austr\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar = 1649799362898
+C:\Users\austr\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar = 1649799362886
+C:\Users\austr\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar = 1649799363945
+C:\Users\austr\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.13.1\maven-artifact-transfer-0.13.1.jar = 1653743626410
+C:\Users\austr\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar = 1653743626501
+C:\Users\austr\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.11.1\doxia-sink-api-1.11.1.jar = 1653743627658
+C:\Users\austr\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.11.1\doxia-logging-api-1.11.1.jar = 1653743627965
+C:\Users\austr\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.11.1\doxia-site-renderer-1.11.1.jar = 1653743627554
+C:\Users\austr\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.11.1\doxia-skin-model-1.11.1.jar = 1653743627589
+C:\Users\austr\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.11.1\doxia-module-xhtml-1.11.1.jar = 1653743627621
+C:\Users\austr\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml5\1.11.1\doxia-module-xhtml5-1.11.1.jar = 1653743627675
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-30\plexus-container-default-1.0-alpha-30.jar = 1649799363675
+C:\Users\austr\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar = 1649799319897
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar = 1653740065003
+C:\Users\austr\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar = 1653740065153
+C:\Users\austr\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar = 1649799365582
+C:\Users\austr\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar = 1649799365148
+C:\Users\austr\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar = 1649799365852
+C:\Users\austr\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar = 1649799366353
+C:\Users\austr\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar = 1653740069611
+C:\Users\austr\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.4\wagon-provider-api-2.4.jar = 1653744913212
+C:\Users\austr\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar = 1654020206151
+C:\Users\austr\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar = 1654020205329
+C:\Users\austr\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar = 1653743627486
+C:\Users\austr\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar = 1653743628057
+C:\Users\austr\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar = 1653743627503
+C:\Users\austr\.m2\repository\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar = 1654020206244
+C:\Users\austr\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar = 1654020205937
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-java\1.1.0\plexus-java-1.1.0.jar = 1654020206125
+C:\Users\austr\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar = 1654020206301
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-archiver\4.2.7\plexus-archiver-4.2.7.jar = 1654020206475
+C:\Users\austr\.m2\repository\org\iq80\snappy\snappy\0.4\snappy-0.4.jar = 1653740064243
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-io\3.2.0\plexus-io-3.2.0.jar = 1653744913369
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar = 1653743627961
+C:\Users\austr\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar = 1653743628103
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-interactivity-api\1.1\plexus-interactivity-api-1.1.jar = 1654020206392
+C:\Users\austr\.m2\repository\org\apache\maven\plugins\maven-project-info-reports-plugin\3.0.0\maven-project-info-reports-plugin-3.0.0.jar = 1653744794983
+C:\Users\austr\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.0.0\maven-reporting-impl-3.0.0.jar = 1653744794947
+C:\Users\austr\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar = 1649799361961
+C:\Users\austr\.m2\repository\org\apache\maven\shared\maven-dependency-tree\2.2\maven-dependency-tree-2.2.jar = 1653744795008
+C:\Users\austr\.m2\repository\org\apache\maven\shared\maven-shared-jar\1.2\maven-shared-jar-1.2.jar = 1653743625967
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-digest\1.0\plexus-digest-1.0.jar = 1649799342970
+C:\Users\austr\.m2\repository\org\apache\bcel\bcel\6.2\bcel-6.2.jar = 1653744795100
+C:\Users\austr\.m2\repository\org\apache\maven\scm\maven-scm-api\1.10.0\maven-scm-api-1.10.0.jar = 1653744795553
+C:\Users\austr\.m2\repository\org\apache\maven\scm\maven-scm-provider-hg\1.10.0\maven-scm-provider-hg-1.10.0.jar = 1653744795164
+C:\Users\austr\.m2\repository\org\apache\maven\scm\maven-scm-provider-perforce\1.10.0\maven-scm-provider-perforce-1.10.0.jar = 1653744795170
+C:\Users\austr\.m2\repository\org\apache\maven\scm\maven-scm-provider-starteam\1.10.0\maven-scm-provider-starteam-1.10.0.jar = 1653744795214
+C:\Users\austr\.m2\repository\org\apache\maven\scm\maven-scm-provider-svn-commons\1.10.0\maven-scm-provider-svn-commons-1.10.0.jar = 1653744795264
+C:\Users\austr\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar = 1653743627125
+C:\Users\austr\.m2\repository\org\apache\maven\scm\maven-scm-provider-cvs-commons\1.10.0\maven-scm-provider-cvs-commons-1.10.0.jar = 1653744795443
+C:\Users\austr\.m2\repository\org\apache\maven\scm\maven-scm-provider-git-commons\1.10.0\maven-scm-provider-git-commons-1.10.0.jar = 1653744795465
+C:\Users\austr\.m2\repository\org\apache\maven\doxia\doxia-core\1.8\doxia-core-1.8.jar = 1653740064353
+C:\Users\austr\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.8.1\doxia-decoration-model-1.8.1.jar = 1653740064957
+C:\Users\austr\.m2\repository\org\apache\maven\doxia\doxia-integration-tools\1.8.1\doxia-integration-tools-1.8.1.jar = 1653740065324
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-10\plexus-i18n-1.0-beta-10.jar = 1653740064260
+C:\Users\austr\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.25\plexus-interpolation-1.25.jar = 1653744795722
+C:\Users\austr\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar = 1653744795888
+C:\Users\austr\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar = 1653744795905
+C:\Users\austr\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar = 1653744795928
+C:\Users\austr\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar = 1653237077745
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\src\main\java = 1654022683648
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\allclasses-index.html = 1654027652386
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\allpackages-index.html = 1654027652395
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\copy.svg = 1654027652423
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\element-list = 1654027652239
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\help-doc.html = 1654027652417
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\index-all.html = 1654027652411
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\index.html = 1654027652413
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\jquery-ui.overrides.css = 1654027652447
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\member-search-index.js = 1654027652401
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\module-search-index.js = 1654027652397
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\overview-tree.html = 1654027652319
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\package-search-index.js = 1654027652399
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\script.js = 1654027652422
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\search.js = 1654027652425
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\stylesheet.css = 1654027652419
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\tag-search-index.js = 1654027652402
+C:\Uni\Konfig Github\Zweites Beispiel\msd21_Spencer_Samuel\target\site\apidocs\type-search-index.js = 1654027652400
